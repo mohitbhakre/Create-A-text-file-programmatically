@@ -15,6 +15,7 @@
 		1F127F161F91E26100794DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F127F141F91E26100794DBB /* LaunchScreen.storyboard */; };
 		1F127F211F91E26100794DBB /* CreateFilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F127F201F91E26100794DBB /* CreateFilesTests.m */; };
 		1F127F2C1F91E26100794DBB /* CreateFilesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F127F2B1F91E26100794DBB /* CreateFilesUITests.m */; };
+		1F127F3B1F91E49A00794DBB /* CreateAFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F127F3A1F91E49A00794DBB /* CreateAFileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F127F271F91E26100794DBB /* CreateFilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateFilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F127F2B1F91E26100794DBB /* CreateFilesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateFilesUITests.m; sourceTree = "<group>"; };
 		1F127F2D1F91E26100794DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F127F391F91E49A00794DBB /* CreateAFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAFileViewController.h; sourceTree = "<group>"; };
+		1F127F3A1F91E49A00794DBB /* CreateAFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAFileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				1F127F141F91E26100794DBB /* LaunchScreen.storyboard */,
 				1F127F171F91E26100794DBB /* Info.plist */,
 				1F127F061F91E26100794DBB /* Supporting Files */,
+				1F127F391F91E49A00794DBB /* CreateAFileViewController.h */,
+				1F127F3A1F91E49A00794DBB /* CreateAFileViewController.m */,
 			);
 			path = CreateFiles;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				1F127F0E1F91E26100794DBB /* ViewController.m in Sources */,
 				1F127F0B1F91E26100794DBB /* AppDelegate.m in Sources */,
+				1F127F3B1F91E49A00794DBB /* CreateAFileViewController.m in Sources */,
 				1F127F081F91E26100794DBB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +431,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CreateFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.CreateFiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,9 +444,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CreateFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yd.CreateFiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
